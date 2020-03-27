@@ -27,6 +27,8 @@ export default class Content {
 
         res.write("Hello Jedlik, hello 9.A");
         res.write("<h2 style='color:red;'>TipeScript</h2>");
+        res.write("próba")
+        res.write("alma")
 
         // Tetszőleges html teg-ek és attribútumok beépítése:
         res.write("<span style='color: blue;'><i>Színes és dőlt Hello World!'</i></span>\n");
